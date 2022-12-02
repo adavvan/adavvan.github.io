@@ -1,0 +1,28 @@
+video{
+    display: none;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+body{
+    background-image: none;
+}
+
+footer{
+    display: none !important; 
+}
+
+table{
+    width: 150%;
+}
+
+*{
+    color: black !important;
+}
+
+a span { 
+    display: none; 
+}

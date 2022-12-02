@@ -1,0 +1,41 @@
+body{
+    background: black;
+}
+
+
+*{
+    background: black !important;
+    font-weight: bold;
+}
+
+.bg-dark{
+    background: black !important;
+}
+
+input{
+    color: white !important;
+}
+
+
+input[type=submit], input[type=reset]{
+    color: black !important;
+    background-color: yellow !important;
+}
+
+.nobg, .nobg h1, .nobg h2, .nobg h3, .nobg a{
+    background: none !important;
+}
+a, a:visited{
+    color: yellow !important;
+}
+
+a:hover{
+    color: black !important;
+    background-color: yellow !important;
+}
+
+button{
+    color: black !important;
+    background-color: yellow !important;
+}
+
