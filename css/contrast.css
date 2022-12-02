@@ -22,7 +22,7 @@ input[type=submit], input[type=reset]{
     background-color: yellow !important;
 }
 
-.nobg, .nobg h1, .nobg h2, .nobg h3, .nobg a{
+.nobg, .nobg h1, .nobg h2, .nobg h3, .nobg a, section{
     background: none !important;
 }
 a, a:visited{
