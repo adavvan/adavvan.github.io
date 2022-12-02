@@ -30,15 +30,15 @@
                 </li>         
             </ul>
             <div class="dinline">
-                <button id="cont" class="mr-3" type="button" value="off" onclick="ChangeContrastMode()">Kontraszt</button>
                 <p class="pr-3 text-white">Betűméret-állító</p>
                 <input type="range" min="10" max="30" onchange="changeSizeBySlider()" 
                 id="slider" value="20">
+                <button id="cont" class="ml-3" type="button" value="off" onclick="ChangeContrastMode()">Kontraszt</button>
             </div>
         </nav>       
     </header>
     <h1>Hírlevél</h1>
-    <form id="hirlevel" action="mailto:tgam@tgam.hu" method="post" enctype="text/plain">
+    <form id="hirlevel" class="mb-lg-5" action="mailto:tgam@tgam.hu" method="post" enctype="text/plain">
         <div class="container formcontainer">
           <h2>Feliratkozás a hírlevélre</h2>
         </div>
@@ -49,7 +49,7 @@
             <label for="mail">Email cím</label>
             <input type="text" id="mail" placeholder="Email cím" name="mail" maxlength="32" size="4" required>
             <label for="bemutatkozas">Bemutatkozás</label><br>
-            <textarea id="bemutatkozas" name="bemutatkozas" maxlength="100" rows="4" cols="50" placeholder="Írj nekünk pár szót magadról"></textarea><br>
+            <textarea id="bemutatkozas" name="bemutatkozas" maxlength="100" rows="4" cols="30" placeholder="Írj nekünk pár szót magadról"></textarea><br>
             <label for="weekly">Heti hírlevél</label>
             <input type="radio" id="weekly" name="subscribe">
             <label for="monthly">Havi hírlevél</label>
