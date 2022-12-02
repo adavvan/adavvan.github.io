@@ -176,6 +176,7 @@ a:visited{
     left: 0;
     bottom: 0;
     width: 100%;
+    margin-top: 100px;
  }
 
 a span { height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px; }
